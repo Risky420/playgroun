@@ -1,0 +1,180 @@
+    body{
+      font-family: sans-serif;
+      background-color: #333333;
+    }
+
+    .box{
+      width: 300px;
+      padding: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #191919;
+      text-align: center;
+    }
+
+    .box h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .box input[type = "text"],.box input[type = "password"]{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #ffffff;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+    }
+
+        .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+           width: 280px;
+           border-color: #ccff33;
+    }
+
+    .box input[type = "submit"]{
+        border:0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #ffffff;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+    }
+
+    .box input[type = "submit"]:hover{
+        background: #2ecc71;
+    }
+
+    .container-1{
+      width: 80%;
+      margin: 0 auto;
+      height: 100px;
+    }
+
+    #table-1{
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    header{
+      background: #000000;
+    }
+
+    header::after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .logo-1{
+      float: left;
+      padding: 10px 5px;
+    }
+
+    .logo-2{
+      float: top;
+      padding: 0px 0;
+      height: 80px;
+    }
+
+    nav{
+      float: right;
+    }
+
+    nav ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    nav li{
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 45px;
+
+      position: relative;
+    }
+
+    nav a{
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+
+    nav a:hover{
+      color: #ccff33;
+    }
+
+    nav a::before{
+      content: '';
+      display: block;
+      height: 5px;
+      background-color: #ccff33;
+
+      position: absolute;
+      top: 0;
+      width: 0%;
+
+      transition: all ease-in-out 250ms;
+    }
+
+    nav a:hover::before{
+      width: 100%;
+    }
+
+    table, th, td {
+    border:2px solid black;
+  }
+
+  th, td {
+    border-radius: 25px;
+    color: #ccff33;
+  }
+
+  a {
+     color: #ffffff;
+  }
+
+  a:hover{
+    color: #ccff33;
+  }
+
+  .img-for-the-table {
+    height: 1.5rem;
+    width:  2rem;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+
+    .naws-tag{
+      font-size: 25px;
+      font-style: italic;
+      margin-top: 15%;
+    }
+
+    .footer-box{
+      background-color: #000000;
+    }
+
+    footer{
+       padding: 10px;
+       margin-left: 50%;
+       margin-top: 10%;
+    }
+
+    footer a p{
+      margin-left: -6%;
+    }
